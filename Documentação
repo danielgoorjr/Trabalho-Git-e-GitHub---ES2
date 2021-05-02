@@ -1,0 +1,49 @@
+-Qual é o Negócio:
+Software focado em automatizar o cálculo de área para engenheiros civis e mestres de obras durante a construção de casas.
+
+ --------------------------------------------------
+
+ -Qual o problema/oportunidade?
+ Durante a construção o mestre de obras ou o engenheiro civil deparam-se com problemas relacionados ao cálculo de áreas que envolvem figuras geométricas planas padrão. 
+ Estimar a área destas superfícies é de extrema importância, uma vez que envolvem o cálculo do custo envolvido na compra de azulejos, pisos ou tintas para recobrir tais superfícies.
+ Contudo, o mestre de obra ou engenheiro civil precisa fazer estes cálculos de maneira rápida.
+ Considerando que eles tem como principal ferramenta de auxílio ao trabalho seus respectivos celulares, torna-se interessante e prático tornar o celular capaz de fazer rapidamente estes cálculos.
+ Por isto, a criação deste aplicativo tem como finalidade criar 4 sub-rotinas capazes de calcular a área e o perímetro das duas figuras geométricas mais comuns no setor da construção civil: círculos e retângulos.
+
+--------------------------------------------------
+-Quais são os vocábulos de negócios?
+  -Perímetro: diz respeito à soma das arestas ou superfícies que delimitam a figura geométrica plana.
+  -Área: diz respeito extensão limitada de espaço, território ou superfície.
+  -Mestre de Obra: pessoa encarregada de coordenar em campo do ponto de vista de pessoas, recursos e tempo.
+  -Engenheiro Civil: responsável pelo projeto da obra e garantia de execução da obra conforme os parâmetros estabelecidos nos projeto.
+
+  --------------------------------------------------
+Quais são os processos de negócio?
+a)Durante a construção é comum o cliente fazer pequenas modificações de acabamento. Isto resulta na necessidade de cálculo de áreas para estimar a quantidade de material necessário(azulejos, pisos, argamassas, tintas, etc).
+
+b)Dessa forma, o mestre de obras ou engenheiro civil precisa estimar a área rapidamente para informar ao setor de compras a quantidade de material necessário a ser adquirido para completar a obra no prazo.
+
+---------------------------------------------------
+-Quais são as regras de negócio?
+a) RN0001 - A área do retângulo é dada pela seguinte fórmula:
+Área = lado * lado
+
+b) RN0002 - O perímetro do retângulo é dado pela seguinte fórmula: 
+Perímetro = 2*(base+altura).
+
+c) RN0003 - A área da circunfêrencia é dada pela seguinte fórmula:
+Área = Pi * raioˆ2.
+
+d) RN0004 - O perimetro da circunferência é dado pela seguinte fórmula:
+
+Perímetro = 2 * Pi * raio.
+
+--------------------------------------------------
+-Quem são os stakeholders?
+  -Mestre de obras
+  -Engenheiro civil
+
+  --------------------------------------------------
+  REQUISITO:
+
+  -R0001 -  A solução/aplicativo deverá ser implementada utilizando JAVA.
