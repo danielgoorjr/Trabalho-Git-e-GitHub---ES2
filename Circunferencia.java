@@ -13,7 +13,7 @@ public class Circunferencia {
   public void perimetroCir(float d1){
     
     float p = (float) (2* Math.PI*d1);
-    
+    System.out.println("O perímetro da circunferência de raio "+d1+ " é: "+p);
 
   }
 
