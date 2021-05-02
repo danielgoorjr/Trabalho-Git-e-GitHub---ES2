@@ -10,4 +10,9 @@ public class Circunferencia {
     System.out.println("A área da circunferência de raio "+d1+" é: "+a);
   }
 
+  public void perimetroCir(float d1){
+  
+  }
+
+
 }
