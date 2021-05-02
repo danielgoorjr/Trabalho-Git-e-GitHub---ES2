@@ -11,7 +11,10 @@ public class Circunferencia {
   }
 
   public void perimetroCir(float d1){
-  
+    
+    float p = (float) (2* Math.PI*d1);
+    
+
   }
 
 
