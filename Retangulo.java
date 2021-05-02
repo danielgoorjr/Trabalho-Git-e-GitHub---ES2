@@ -1,18 +1,18 @@
 public class Retangulo {
   // Atributos
-  float d1;
-  float d2;
+  float lado1;
+  float lado2;
 
   // Métodos
 
-  public void area(float d1, float d2) {
-    float a = d1 * d2;
-    System.out.println("A área do retângulo de lado " + d1 + " e " + d2 + " é: " + a);
+  public void area(float lado1, float lado1) {
+    float a = lado1 * lado2;
+    System.out.println("A área do retângulo de lado " + lado1 + " e " + lado2 + " é: " + a);
   }
 
-  public void perimetro(float d1, float d2) {
-    float p = 2 * (d1 + d2);
-    System.out.println("O perímetro do retângulo de lado " + d1 + " e " + d2 + " é: " + p);
+  public void perimetro(float lado1, float lado2) {
+    float p = 2 * (lado1 + lado2);
+    System.out.println("O perímetro do retângulo de lado " + lado1 + " e " + lado2 + " é: " + p);
   }
 
 }
